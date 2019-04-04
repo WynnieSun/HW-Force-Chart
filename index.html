@@ -5,7 +5,64 @@
   <script type="text/javascript" src="d3.js">
   </script>
 <body>
-  <script type="text/javascript" src="force.js">
+
+<style>
+body{
+  background-color:#dfe6ea;
+}
+img.set1{
+  margin-left: 500px;
+}
+img.set2{
+  margin-left: 500px;
+}
+img.set3{
+  margin-left: 500px;
+}
+svg.set1{
+  float: left;
+}
+svg.set2{
+float: left;
+}
+svg.set3{
+  float: left;
+}
+</style>
+
+<div class="set1">
+  <h3>Dataset 1</h3>
+  <ul>
+    <li>Dataset 1 is about character relation</li>
+    <li>Nodes represent each person</li>
+    <li>If two person know each other, there will be an edge between them</li>
+  </ul>
+  <img class="set1" src="1.png"></svg>
+</div>
+
+<div class="set2">
+  <h3>Dataset 2</h3>
+  <ul>
+    <li>Dataset 2 is about Network</li>
+    <li>Nodes represent network equipment, media, and the end-user devices</li>
+    <li>This force diagram refers to the physical layout of network equipments</li>
+  </ul>
+  <img class="set2" src="2.png"></svg>
+</div>
+
+<div class="set3">
+  <h3>Dataset 3</h3>
+  <ul>
+    <li>Dataset 3 is about college majors</li>
+    <li>Nodes represent categories and majors</li>
+    <li>The main node "Majors" links to four categories</li>
+    <li>Then each category links to majors which belong to it</li>
+  </ul>
+  <img class="set3" src="3.png"></svg>
+</div>
+
+<script type="text/javascript" src="force.js">
 </script>
+
   </body>
 </html>

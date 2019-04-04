@@ -1,4 +1,4 @@
-var w = 400;
+var w = 500;
 var h = 300;
 
 //dataset 1: character relation/family tree
@@ -97,7 +97,6 @@ var colors = d3.scaleOrdinal(d3.schemeCategory10);
 //Create SVG element
 var svg = d3.select("body")
             .append("svg")
-            .attr("class", "set1")
             .attr("width", w)
             .attr("height", h);
 
@@ -148,7 +147,6 @@ var svg = d3.select("body")
 //Create SVG element
          var svg = d3.select("body")
                      .append("svg")
-                     .attr("class", "set2")
                      .attr("width", w)
                      .attr("height", h);
 
@@ -199,7 +197,6 @@ var colors = d3.scaleOrdinal(d3.schemeCategory10);
 //Create SVG element
 var svg = d3.select("body")
             .append("svg")
-            .attr("class", "set3")
             .attr("width", w)
             .attr("height", h);
 
